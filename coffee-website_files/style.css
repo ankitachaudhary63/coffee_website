@@ -1,0 +1,304 @@
+/* .fast-nevbar a{
+ font-size: 40px;
+ font-weight: 40px;
+ z-index: 9999;
+} */
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(251, 242, 232);
+  color: #000;
+  line-height: 1.5em;
+}
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.8rem;
+    left: 20%;
+  }
+  
+  .navbar-links ul {
+    margin: 0px 0px 0px 150px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li:hover {
+    background-color: rgb(96, 105, 93); 
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color:#000;
+    padding: 1rem;
+    display: block;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  } */
+  .div-box{
+    background-color: rgb(96, 105, 93); 
+  }
+  .div-box h4{
+    color: #fff; 
+    text-align: center; 
+    padding: 20px;
+  }
+  .banner-img{
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .div-box-1{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+  .div-box-2{
+    float: left;
+    width: 50%;
+    padding: 0px;
+    /* height: 580px; */
+     box-sizing: border-box;
+  }
+  .div-box2 h1{
+    font-size: 80px;
+   
+      padding-left: 30px;
+  }
+  .div-box2{
+    background-color: #fff;
+    /* text-align: center; */
+    padding: 75px;
+    }
+    .div-box2 p{
+      padding: 0 30px;
+    }
+    .div-box4 h1{
+      font-size: 70px; padding-bottom: 30px;
+    }
+    button{
+        padding: 12px;
+        width: 140px;
+        background: #fff;
+        margin: 30px;
+        border: 1px solid gray;
+    }
+    button:hover {
+      background-color: rgb(96, 105, 93);
+  }
+    .div-box-text{
+        background-color: rgb(251 242, 232);
+        text-align: center;
+        padding: 70px 0px 70px 0px;
+        margin-top: 0px;
+    }
+ 
+    .ab
+{
+    float: left;
+    width: 45%;;
+}
+.abc
+{
+    float: left;
+    width: 45%;
+}
+.abc:before {
+    content: '';
+    width: 1px;
+    height: 100px;
+    background: #000;
+    float: left;
+    margin-top: 24px;
+}
+.div-box-3{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    
+}
+.div-box-4{
+    float: left;
+    width: 20%;
+    padding: 0px;
+     box-sizing: border-box;
+}
+.div-box-5{
+    background-color: rgb(64, 77, 60);
+    padding: 100px 0 50px 0;
+}
+.bammer-image{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/4.webp"); */
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     }
+     .banner-text{
+     /* text-align: center; */
+     position: absolute;
+     top: 50%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+     color: white;
+     z-index: 9999999;
+     }
+     .banner-text button {
+     border: none;
+     outline: 0;
+     display: inline-block;
+     padding: 12px ;
+     color: #fff;
+     /* background-color: #fff; */
+     border: 1px solid rgb(250, 247, 247);
+     text-align: center;
+     cursor: pointer;
+     margin: 20px 30px 0px 12px;
+     background: transparent;
+   }
+   .banner-text h1{
+    font-size:70px
+   }
+   
+   .banner-text button:hover {
+    background-color: rgb(96, 105, 93);
+     color: white;
+   }
+   .footer{
+    background-color: rgb(251 242, 232);
+     text-align: center; 
+     padding:  10px 0px;
+   }
+   form.ankita input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: rgb(64, 77, 60);
+    margin: 0px 0px 0px -27px;
+  }
+  form.ankita button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: rgb(64, 77, 60);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin: 0px;
+  }
+  form.ankita button:hover {
+    background:rgb(96, 105, 93);
+  }
+  form.ankita::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: rgb(251, 242, 232);
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(251, 242, 232);
+    color:grey;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin: 0px;
+  }
+  
+  form.example button:hover {
+    background:  rgb(96, 105, 93);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  @media screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0;
+    }
+    .navbar .navbar-nav .nav-item {
+      margin: 0 1em;
+    }
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    background-color: rgb(96, 105, 93);
+    width: 0%;
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+  .form-control me-2{
+    padding: 10px;
+  }
+  .div-box-5-text a{
+    text-decoration: none;
+    color:#fff; 
+    font-size: 40px;
+  }
+  
+  
